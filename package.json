@@ -1,0 +1,36 @@
+{
+  "name": "@nghinv/react-native-dropdown",
+  "version": "1.0.0",
+  "description": "A custom dropdown component",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "dropdown",
+    "react-native-dropdown"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nghinv-software/react-native-dropdown.git"
+  },
+  "author": "nghinv@lumi.biz",
+  "types": "typescript/index.d.ts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nghinv-software/react-native-dropdown/issues"
+  },
+  "homepage": "https://github.com/nghinv-software/react-native-dropdown#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-gesture-handler": "*",
+    "react-native-reanimated": ">=2.0.0-rc.0",
+    "@nghinv/react-native-icons": "^1.0.1"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
