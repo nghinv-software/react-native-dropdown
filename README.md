@@ -22,6 +22,10 @@ npm install @nghinv/react-native-dropdown
 * Peer dependencies 
 	- [@nghinv/react-native-icons](https://github.com/nghinv-software/react-native-icons)
 
+
+<img src="./assets/example.gif" height="600"/>
+
+
 # How to use
 
 ```javascript
