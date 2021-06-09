@@ -33,6 +33,8 @@
   },
   "devDependencies": {},
   "publishConfig": {
+    "cache": "~/.npm",
+    "registry": "https://npm.pkg.github.com",
     "access": "public"
   }
 }
