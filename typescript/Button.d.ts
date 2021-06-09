@@ -17,7 +17,7 @@ export interface ButtonProps extends IconType {
   titleStyle?: TextStyle;
   disable?: Boolean;
   iconCheckColor?: String;
-  direction: 'left' | 'right';
+  direction?: 'left' | 'right';
   testIDButton?: String;
   accessibilityLabelButton?: String;
   testIDTitle?: String;

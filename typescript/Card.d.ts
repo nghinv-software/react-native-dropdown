@@ -6,8 +6,8 @@
 import { ViewStyle, ViewProps } from 'react-native';
 
 export type PointStyleType = {
-  direction: 'up' | 'down';
-  alignItems: 'flex-end' | 'flex-start' | 'center' | undefined;
+  direction?: 'up' | 'down';
+  alignItems?: 'flex-end' | 'flex-start' | 'center' | undefined;
 }
 
 export interface CardProps {

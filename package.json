@@ -1,15 +1,17 @@
 {
   "name": "@nghinv/react-native-dropdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom dropdown component",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native",
+    "react",
+    "native",
     "dropdown",
-    "react-native-dropdown"
+    "react native dropdown",
+    "nghinv"
   ],
   "repository": {
     "type": "git",

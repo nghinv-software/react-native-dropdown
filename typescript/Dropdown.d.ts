@@ -13,14 +13,14 @@ type PositionType = 'topLeft' | 'topRight' | 'bottomLeft' | 'bottomRight' | 'aut
 type OptionsType = Array<ButtonProps>
 
 export type ContentType = {
-  direction: 'left' | 'right';
-  pointStyle: PointStyleType;
+  direction?: 'left' | 'right';
+  pointStyle?: PointStyleType;
 
   // Max height of dropdown content
-  maxHeight: Number;
+  maxHeight?: Number;
 
   // Use to dismiss dropdown overlay
-  dismiss: () => void;
+  dismiss?: () => void;
 }
 
 interface DropdownProps {

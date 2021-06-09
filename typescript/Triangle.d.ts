@@ -7,8 +7,8 @@ import { ViewStyle } from 'react-native';
 
 interface TriangleProps {
   direction?: 'up' | 'right' | 'down' | 'left' | 'up-right' | 'up-left' | 'down-right' | 'down-left';
-  width: Number;
-  height: Number;
+  width?: Number;
+  height?: Number;
   color?: String;
   style?: ViewStyle;
 }
