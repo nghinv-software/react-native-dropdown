@@ -27,8 +27,13 @@ yarn add @nghinv/react-native-dropdown
 npm install @nghinv/react-native-dropdown
 ```
 
-* Peer dependencies 
-	- [@nghinv/react-native-icons](https://github.com/nghinv-software/react-native-icons)
+- peerDependencies
+
+```sh
+yarn add react-native-gesture-handler react-native-reanimated @nghinv/react-native-icons
+```
+
+- [@nghinv/react-native-icons](https://github.com/nghinv-software/react-native-icons)
 
 
 <img src="./assets/example.gif" height="600"/>
@@ -120,6 +125,11 @@ const styles = StyleSheet.create({
   },
 });
 ```
+
+---
+## Credits
+
+- [@Nghi-NV](https://github.com/Nghi-NV)
 
 [version-badge]: https://img.shields.io/npm/v/@nghinv/react-native-dropdown.svg?style=flat-square
 [package]: https://www.npmjs.com/package/@nghinv/react-native-dropdown
